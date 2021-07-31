@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background: linear-gradient(rgba(120, 4, 0, 0.938),rgb(10, 77, 107));
     height: 100vh;
@@ -18,7 +22,8 @@ font-family:  monospace;
 
 
 form{
-    margin-top: 60px;
+    margin-top: 50px;
+    margin-left: 50px;
     font-size: 20px;
     font-family: cursive;
     color: rgb(32, 19, 19);
@@ -84,7 +89,7 @@ select{
 }
 #him{
     width: 30px;
-    margin-top: -90px;
+    margin-top: -50px;
     margin-left: 20px;
     cursor: pointer;
 }
@@ -204,7 +209,7 @@ font-size: 20px;
     overflow: scroll;
 }
 #him{
-    margin-top: 0px;
+    margin-top: 20px;
     width: 70vw;
 }
 .sik{
